@@ -1,0 +1,128 @@
+/* Google font styles import link starts here */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+
+/* Google font styles import link ends here */
+
+/* Universal styles starts here to reset web browser's default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish';
+    /* Font weight 800px */
+}
+
+/* Universal styles ends here */
+
+/* Header section styles starts here */
+
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navbar styles starts here */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-logo img {
+    object-fit: cover;
+}
+
+.nav-logo img:hover{
+    cursor: pointer;
+}
+
+.nav-logo-title {
+    color: #131318;
+    font-size: 2.25em;
+}
+
+/* Span used for styling the last part of the logo name */
+.nav-logo-title span {
+    color: #FF5400;
+    font-size: 2.25rem;
+}
+
+.nav-logo-title:hover{
+    cursor: pointer;
+}
+
+.nav-items ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.8em;
+    list-style: none;
+}
+
+.nav-items ul li a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 1.125em;
+    font-weight: 400;
+}
+
+/* Style for Home item */
+.nav-items>ul>li :nth-child(1 of #item-1) {
+    color: #FF5400;
+    text-align: center;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.navbar-bar{
+    display: none;
+}
+
+/* Navbar styles ends here */
+
+/* Header section styles ends here */
+
+/* Main section styles starts here */
+
+/* Main section styles ends here */
+
+/* Footer section styles starts here */
+
+/* Footer section styles ends here */
+
+/* Media queries styles starts here to make responsive */
+
+/* Media queries for mobile devices styles starts here */
+@media screen and (max-width: 600px) {
+    /* .nav-logo-title{
+        font-size: 1.5em;
+    }
+
+    .nav-logo-title span{
+        font-size: 1.5rem;
+    } */
+
+    .nav-logo img{
+        width: 10%;
+    }
+
+    .nav-items ul{
+        display: none;
+    }
+    .navbar-bar{
+        display: inline;
+    }
+}
+/* Media queries for mobile devices styles ends here */
+
+/* Media queries styles ends here */
