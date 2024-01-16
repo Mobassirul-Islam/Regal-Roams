@@ -19,7 +19,7 @@
 /* Header section styles starts here */
 
 header {
-    max-width: 950px;
+    max-width: 990px;
     width: 100%;
     margin: 0 auto;
 }
@@ -162,7 +162,7 @@ header {
 /* Main section styles starts here */
 
 main {
-    max-width: 950px;
+    max-width: 990px;
     width: 100%;
     margin: 0 auto;
 }
@@ -204,6 +204,128 @@ main {
 }
 
 /* Popular tour section styles ends here */
+
+/* Your destination section styles starts here */
+
+.your-destination-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px 0px 24px 0px;
+}
+
+.your-destination-description {
+    color: #131318b3;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin: 0px 0px 50px 0px;
+}
+
+.your-destination-image-container{
+    position: relative;
+}
+
+.your-destination-images-row-1 img,
+.your-destination-images-row-2 img,
+.your-destination-images-row-3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.your-destination-images-row-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    height: 300px;
+    margin: 0px 0px 24px 0px;
+    position: relative;
+}
+
+.destination-image-card-1-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+}
+
+.destination-image-card-2-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    right: 18%;
+}
+
+.your-destination-images-row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    column-gap: 20px;
+    height: 300px;
+    margin: 0px 0px 24px 0px;
+    position: relative;
+}
+
+.destination-image-card-3-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+
+.destination-image-card-4-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.destination-image-card-5-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    right: 8%;
+}
+
+.your-destination-images-row-3 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 20px;
+    height: 300px;
+    margin: 0px 0px 100px 0px;
+    position: relative;
+}
+
+.destination-image-card-6-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 11%;
+}
+
+.destination-image-card-7-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    right: 26%;
+}
+
+/* Your destination section styles ends here */
 
 /* Main section styles ends here */
 
@@ -265,7 +387,7 @@ main {
         padding: 0px 0px 10px 0px;
     }
 
-    .header-banner-description{
+    .header-banner-description {
         padding: 0px 0px 30px 0px;
     }
 
@@ -281,32 +403,91 @@ main {
 
     /* Popular tour responsive styles starts here */
 
-    .popular-tour-section{
+    .popular-tour-section {
         flex-direction: column;
         margin: 20px 0px;
     }
 
-    .popular-tour-texts{
+    .popular-tour-texts {
         margin: 0px 20px;
     }
 
-    .popular-tour-title{
+    .popular-tour-title {
         font-size: 20px;
         margin-bottom: 10px;
     }
 
-    .popular-tour-description{
+    .popular-tour-description {
         font-size: 14px;
         margin-bottom: 10px;
     }
 
-    .popular-tour-image{
-        margin: 0px 0px 24px 0px;
+    .popular-tour-image img{
+        width: 100%;
+    }
+
+    .popular-tour-image {
+        margin: 0px 20px 24px 20px;
     }
 
     /* Popular tour responsive styles ends here */
 
+    /* Your destination section responsive styles starts here */
+
+    .your-destination-title {
+        font-size: 20px;
+        margin: 0px 0px 16px 0px;
+    }
+
+    .your-destination-description {
+        font-size: 16px;
+        margin: 0px 0px 14px 0px;
+    }
+
+    .your-destination-images-row-1,
+    .your-destination-images-row-2,
+    .your-destination-images-row-3 {
+        grid-template-columns: repeat(1, 1fr);
+        height: 100%;
+        row-gap: 20px;
+        margin: 20px 20px;
+    }
+
+    .destination-image-card-1-title{
+        top: 20%;
+        left: 35%;
+    }
+    .destination-image-card-2-title{
+        top: 70%;
+        left: 20%;
+    }
+
+    .destination-image-card-3-title{
+        top: 14%;
+        left: 35%;
+    }
+
+    .destination-image-card-4-title{
+        top: 43%;
+        left: 25%;
+    }
+
+    .destination-image-card-5-title{
+        top: 80%;
+        left: 10%;
+    }
     
+    .destination-image-card-6-title{
+        top: 25%;
+        left: 30%;
+    }
+
+    .destination-image-card-7-title{
+        top: 80%;
+        left: 25%;
+    }
+
+    /* Your destination section responsive styles ends here */
 
     /* Main section responsive styles ends here */
 
