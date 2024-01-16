@@ -224,7 +224,7 @@ main {
     margin: 0px 0px 50px 0px;
 }
 
-.your-destination-image-container{
+.your-destination-image-container {
     position: relative;
 }
 
@@ -253,7 +253,7 @@ main {
     left: 18%;
 }
 
-.destination-image-card-2-title{
+.destination-image-card-2-title {
     color: #FFF;
     text-align: center;
     font-size: 28px;
@@ -271,7 +271,7 @@ main {
     position: relative;
 }
 
-.destination-image-card-3-title{
+.destination-image-card-3-title {
     color: #FFF;
     text-align: center;
     font-size: 28px;
@@ -280,7 +280,7 @@ main {
     left: 7%;
 }
 
-.destination-image-card-4-title{
+.destination-image-card-4-title {
     color: #FFF;
     text-align: center;
     font-size: 28px;
@@ -289,7 +289,7 @@ main {
     left: 40%;
 }
 
-.destination-image-card-5-title{
+.destination-image-card-5-title {
     color: #FFF;
     text-align: center;
     font-size: 28px;
@@ -307,7 +307,7 @@ main {
     position: relative;
 }
 
-.destination-image-card-6-title{
+.destination-image-card-6-title {
     color: #FFF;
     text-align: center;
     font-size: 28px;
@@ -316,7 +316,7 @@ main {
     left: 11%;
 }
 
-.destination-image-card-7-title{
+.destination-image-card-7-title {
     color: #FFF;
     text-align: center;
     font-size: 28px;
@@ -326,6 +326,66 @@ main {
 }
 
 /* Your destination section styles ends here */
+
+/* Choose us section styles starts here */
+
+.choose-us-section {
+    margin-bottom: 100px;
+}
+
+.choose-us-section-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px 0px 24px 0px;
+}
+
+.choose-us-section-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin: 0px 0px 50px 0px;
+}
+
+.choose-us-cards {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+
+}
+
+.choose-us-card-logo {
+    margin-bottom: 32px;
+}
+
+.choose-us-card-title {
+    margin-bottom: 16px;
+}
+
+.choose-us-card-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.choose-us-cards-row-1 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.choose-us-cards-row-2 {
+    width: calc(50% - 24px / 2);
+    margin: 0 auto;
+}
+
+/* Choose us section styles ends here */
 
 /* Main section styles ends here */
 
@@ -422,7 +482,7 @@ main {
         margin-bottom: 10px;
     }
 
-    .popular-tour-image img{
+    .popular-tour-image img {
         width: 100%;
     }
 
@@ -453,41 +513,69 @@ main {
         margin: 20px 20px;
     }
 
-    .destination-image-card-1-title{
+    .destination-image-card-1-title {
         top: 20%;
         left: 35%;
     }
-    .destination-image-card-2-title{
+
+    .destination-image-card-2-title {
         top: 70%;
         left: 20%;
     }
 
-    .destination-image-card-3-title{
+    .destination-image-card-3-title {
         top: 14%;
         left: 35%;
     }
 
-    .destination-image-card-4-title{
+    .destination-image-card-4-title {
         top: 43%;
         left: 25%;
     }
 
-    .destination-image-card-5-title{
+    .destination-image-card-5-title {
         top: 80%;
         left: 10%;
     }
-    
-    .destination-image-card-6-title{
+
+    .destination-image-card-6-title {
         top: 25%;
         left: 30%;
     }
 
-    .destination-image-card-7-title{
+    .destination-image-card-7-title {
         top: 80%;
         left: 25%;
     }
 
     /* Your destination section responsive styles ends here */
+
+    /* Choose us section responsive styles starts here */
+
+    .choose-us-section {
+        margin: 0px 20px;
+    }
+
+    .choose-us-section-title {
+        font-size: 20px;
+        margin: 0px 0px 16px 0px;
+    }
+
+    .choose-us-section-description {
+        font-size: 14px;
+        margin: 0px 0px 16px 0px;
+    }
+
+    .choose-us-cards-row-1 {
+        flex-direction: column;
+    }
+
+    .choose-us-cards-row-2 {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    /* Choose us section responsive styles starts here */
 
     /* Main section responsive styles ends here */
 
