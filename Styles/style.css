@@ -34,14 +34,15 @@ header {
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1em;
+    width: 50%;
 }
 
 .nav-logo img {
     object-fit: cover;
 }
 
-.nav-logo img:hover{
+.nav-logo img:hover {
     cursor: pointer;
 }
 
@@ -56,15 +57,18 @@ header {
     font-size: 2.25rem;
 }
 
-.nav-logo-title:hover{
+.nav-logo-title:hover {
     cursor: pointer;
+}
+
+.nav-items {
+    width: 50%;
 }
 
 .nav-items ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2.8em;
     list-style: none;
 }
 
@@ -84,7 +88,7 @@ header {
     font-weight: 700;
 }
 
-.navbar-bar{
+.nav-items .navbar-bar {
     display: none;
 }
 
@@ -104,25 +108,42 @@ header {
 
 /* Media queries for mobile devices styles starts here */
 @media screen and (max-width: 600px) {
-    /* .nav-logo-title{
-        font-size: 1.5em;
+
+    /* Navbar responsive styles starts here */
+
+    .navbar {
+        padding: 0px 20px;
     }
 
-    .nav-logo-title span{
-        font-size: 1.5rem;
-    } */
-
-    .nav-logo img{
-        width: 10%;
+    .nav-logo {
+        width: auto;
     }
 
-    .nav-items ul{
+    .nav-logo-title {
+        font-size: 2em;
+    }
+
+    .nav-logo-title span {
+        font-size: 2rem;
+    }
+
+    .nav-items {
+        width: auto;
+    }
+
+    .nav-items>ul {
         display: none;
     }
-    .navbar-bar{
-        display: inline;
+
+    .nav-items .navbar-bar {
+        display: block;
+        text-align: end;
     }
+
+    /* Navbar responsive styles ends here */
+
 }
+
 /* Media queries for mobile devices styles ends here */
 
 /* Media queries styles ends here */
