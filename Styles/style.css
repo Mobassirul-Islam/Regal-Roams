@@ -41,25 +41,19 @@ header {
 
 .nav-logo img {
     object-fit: cover;
-}
-
-.nav-logo img:hover {
     cursor: pointer;
 }
 
 .nav-logo-title {
     color: #131318;
     font-size: 36px;
+    cursor: pointer;
 }
 
 /* Span used for styling the last part of the logo name */
 .nav-logo-title span {
     color: #FF5400;
     font-size: 36px;
-}
-
-.nav-logo-title:hover {
-    cursor: pointer;
 }
 
 .nav-items {
@@ -536,7 +530,7 @@ main {
 
 /* Newsletter section styles starts here */
 
-.newsletter-section{
+.newsletter-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -598,7 +592,7 @@ main {
     padding: 14px 0px;
 }
 
-.newsletter-image{
+.newsletter-image {
     position: relative;
 }
 
@@ -630,6 +624,74 @@ main {
 /* Main section styles ends here */
 
 /* Footer section styles starts here */
+
+footer {
+    background: #1313180d;
+}
+
+.footer-contents {
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 100px 0px 16px 0px;
+}
+
+.footer-logo img {
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.footer-logo-title {
+    color: #131318;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+/* Span used for styling the last part of the footer logo name */
+.footer-logo-title span {
+    color: #FF5400;
+    font-size: 32px;
+}
+
+.footer-description {
+    text-align: center;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    padding-bottom: 30px;
+}
+
+.footer-upper-hr-line {
+    margin-bottom: 30px;
+}
+
+
+.social-media-box ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.footer-lower-hr-line {
+    margin: 30px 0px;
+}
+
+.footer-copyright-texts {
+    text-align: center;
+    padding-bottom: 100px;
+}
 
 /* Footer section styles ends here */
 
@@ -901,25 +963,25 @@ main {
 
     /* Newsletter section responsive styles starts here */
 
-    .newsletter-section{
+    .newsletter-section {
         flex-direction: column;
         margin: 0px 20px 24px 20px;
     }
 
-    .newsletter-image img{
+    .newsletter-image img {
         width: 100%;
     }
 
-    .save-up-card{
+    .save-up-card {
         top: 58%;
         padding: 10px 20px;
     }
 
-    .save-up-card-sub-title{
+    .save-up-card-sub-title {
         font-size: 14px;
     }
 
-    .save-up-card-title{
+    .save-up-card-title {
         font-size: 18px;
     }
 
@@ -928,6 +990,39 @@ main {
     /* Main section responsive styles ends here */
 
     /* Footer section responsive styles starts here */
+
+    .footer-contents {
+        padding: 20px;
+    }
+
+    .footer-logo {
+        padding: 30px 0px 16px 0px;
+    }
+
+    .footer-logo img{
+        width: auto;
+    }
+
+    .footer-logo-title,
+    .footer-logo-title span {
+        font-size: 25px;
+    }
+
+    .footer-description{
+        padding-bottom: 16px;
+    }
+
+    .footer-upper-hr-line{
+        margin-bottom: 24px;
+    }
+
+    .footer-lower-hr-line{
+        margin: 24px 0px 24px 0px;
+    }
+
+    .footer-copyright-texts{
+        padding-bottom: 30px;
+    }
 
     /* Footer section responsive styles ends here */
 }
