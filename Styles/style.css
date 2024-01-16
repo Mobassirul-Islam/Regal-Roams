@@ -621,12 +621,58 @@ main {
 
 /* Newsletter section styles ends here */
 
+/* Clients review section styles starts here */
+
+.client-review-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.client-review-section-title {
+    color: #FF5400;
+    text-align: center;
+    font-size: 36px;
+    line-height: 30px;
+    /* 150% */
+    margin-bottom: 30px;
+}
+
+.client-review-card {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    background: #1313180d;
+    backdrop-filter: blur(2.5px);
+    padding: 30px 50px;
+}
+
+.client-review-card:hover {
+    transform: scale(90%);
+}
+
+.client-name {
+    color: #FF5400;
+    margin: 0px 0px 20px 0px;
+}
+
+.client-name span {
+    color: #131318;
+}
+
+.client-feedback {
+    color: #131318;
+    margin: 0px 0px 10px 0px;
+}
+
+/* Clients review section styles ends here */
+
 /* Main section styles ends here */
 
 /* Footer section styles starts here */
 
 footer {
     background: #1313180d;
+    margin-top: 20px;
 }
 
 .footer-contents {
@@ -987,6 +1033,19 @@ footer {
 
     /* Newsletter section responsive styles ends here */
 
+    /* Clients review section responsive styles starts here */
+
+    .client-review-section {
+        margin: 0px 20px;
+    }
+
+    .client-review-section-title{
+        font-size: 20px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    /* Clients review section responsive styles ends here */
+
     /* Main section responsive styles ends here */
 
     /* Footer section responsive styles starts here */
@@ -999,7 +1058,7 @@ footer {
         padding: 30px 0px 16px 0px;
     }
 
-    .footer-logo img{
+    .footer-logo img {
         width: auto;
     }
 
@@ -1008,19 +1067,19 @@ footer {
         font-size: 25px;
     }
 
-    .footer-description{
+    .footer-description {
         padding-bottom: 16px;
     }
 
-    .footer-upper-hr-line{
+    .footer-upper-hr-line {
         margin-bottom: 24px;
     }
 
-    .footer-lower-hr-line{
+    .footer-lower-hr-line {
         margin: 24px 0px 24px 0px;
     }
 
-    .footer-copyright-texts{
+    .footer-copyright-texts {
         padding-bottom: 30px;
     }
 
