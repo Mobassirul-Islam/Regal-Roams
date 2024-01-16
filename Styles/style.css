@@ -19,7 +19,8 @@
 /* Header section styles starts here */
 
 header {
-    max-width: 900px;
+    max-width: 950px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -28,13 +29,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 0px 0px 0px;
+    margin: 50px 0px 50px 0px;
 }
 
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 1em;
+    gap: 16px;
     width: 50%;
 }
 
@@ -48,13 +49,13 @@ header {
 
 .nav-logo-title {
     color: #131318;
-    font-size: 2.25em;
+    font-size: 36px;
 }
 
 /* Span used for styling the last part of the logo name */
 .nav-logo-title span {
     color: #FF5400;
-    font-size: 2.25rem;
+    font-size: 36px;
 }
 
 .nav-logo-title:hover {
@@ -76,7 +77,7 @@ header {
     text-decoration: none;
     color: #424247;
     text-align: center;
-    font-size: 1.125em;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -84,7 +85,7 @@ header {
 .nav-items>ul>li :nth-child(1 of #item-1) {
     color: #FF5400;
     text-align: center;
-    font-size: 1.125em;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -93,6 +94,68 @@ header {
 }
 
 /* Navbar styles ends here */
+
+/* Header banner styles starts here */
+
+.header-banner-container {
+    border-radius: 16px;
+    background-image: url('../Styles/Images/Group\ 13\ \(1\)\ \(1\).png'), linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+    padding: 100px 15px;
+    object-fit: cover;
+}
+
+.header-banner-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    padding: 0px 0px 24px 0px;
+}
+
+.header-banner-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 0px 50px 0px;
+}
+
+.header-banner-form {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    max-width: max-content;
+    margin: 0px auto;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+#where-go-box {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px 30px 16px 10px;
+    outline: none;
+    border: none;
+    color: #424247;
+    width: 200px;
+}
+
+.header-banner-form .find-now-btn{
+    color: #FFF;
+    background-color: #FF5400;
+    outline: none;
+    border: none;
+    width: 200px;
+    padding: 16px 30px 16px 10px;
+    border-radius: 8px;
+}
+
+/* Header banner styles ends here */
 
 /* Header section styles ends here */
 
@@ -120,11 +183,11 @@ header {
     }
 
     .nav-logo-title {
-        font-size: 2em;
+        font-size: 32px;
     }
 
     .nav-logo-title span {
-        font-size: 2rem;
+        font-size: 32px;
     }
 
     .nav-items {
@@ -141,6 +204,24 @@ header {
     }
 
     /* Navbar responsive styles ends here */
+
+    /* Header banner responsive styles starts here */
+
+    .header-banner-container{
+        padding: 32px 15px;
+        background-size: cover;
+        margin: 0px 20px;
+    }
+
+    .header-banner-title{
+        font-size: 22px;
+    }
+
+    .header-banner-form{
+        flex-direction: column;
+    }
+
+    /* Header banner responsive styles ends here */
 
 }
 
