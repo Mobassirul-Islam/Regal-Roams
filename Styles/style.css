@@ -387,6 +387,100 @@ main {
 
 /* Choose us section styles ends here */
 
+/* Deals section styles starts here */
+
+.deals-section-header-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px 0px 24px 0px;
+}
+
+.deals-section-header-description {
+    color: #131318b3;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin: 0px 0px 50px 0px;
+}
+
+.deal-card-container-1,
+.deal-card-container-3 {
+    background-image: url("../Styles/Images/Group\ 39.png");
+    border-radius: 16px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    background-position: center;
+    padding: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.deal-card-container-2 {
+    background-image: url("../Styles/Images/Group\ 40.png");
+    border-radius: 16px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    background-position: center;
+    padding: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.deal-card {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: #ffffffcc;
+    backdrop-filter: blur(2.5px);
+    width: 50%;
+    padding: 30px 0px 30px 20px;
+}
+
+.deal-card ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+}
+
+.deal-card-title {
+    color: #131318;
+    font-size: 24px;
+    padding: 26px 0px 16px 0px;
+}
+
+.deal-card-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    padding: 0px 0px 16px 0px;
+}
+
+.deal-card-price {
+    color: #FF5400;
+    font-size: 20px;
+    padding: 0px 0px 24px 0px;
+}
+
+.deal-card-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 24px;
+}
+
+/* Deals section styles ends here */
+
 /* Main section styles ends here */
 
 /* Footer section styles starts here */
@@ -575,7 +669,63 @@ main {
         margin-bottom: 24px;
     }
 
-    /* Choose us section responsive styles starts here */
+    /* Choose us section responsive styles ends here */
+
+    /* Deals section responsive styles starts here */
+
+    .deals-section {
+        padding: 0px 20px;
+    }
+
+    .deals-section-header-title {
+        font-size: 20px;
+        margin: 0px 0px 16px 0px;
+
+    }
+
+    .deals-section-header-description {
+        font-size: 14px;
+        margin: 0px 0px 16px 0px;
+    }
+
+    .deal-card-container-1,
+    .deal-card-container-2,
+    .deal-card-container-3 {
+        background-size: cover;
+        padding: 20px;
+        margin: 0px 0px 16px 0px;
+    }
+
+    .deal-card {
+        width: 100%;
+        padding: 20px;
+        margin: 200px 0px 0px 0px;
+    }
+
+    .deal-card ul {
+        flex-wrap: wrap;
+    }
+
+    .deal-card ul li,
+    .deal-card-price {
+        font-size: 16px;
+    }
+
+    .deal-card-title {
+        font-size: 20px;
+        padding: 16px 0px 8px 0px;
+    }
+
+    .deal-card-description {
+        font-size: 14px;
+        padding: 0px 0px 8px 0px;
+    }
+
+    .deal-card-btn {
+        font-size: 18px
+    }
+
+    /* Deals section responsive styles ends here */
 
     /* Main section responsive styles ends here */
 
