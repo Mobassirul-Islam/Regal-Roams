@@ -142,15 +142,15 @@ header {
     outline: none;
     border: none;
     color: #424247;
-    width: 200px;
+    width: 150px;
 }
 
-.header-banner-form .find-now-btn{
+.primary-btn {
     color: #FFF;
     background-color: #FF5400;
     outline: none;
     border: none;
-    width: 200px;
+    width: 150px;
     padding: 16px 30px 16px 10px;
     border-radius: 8px;
 }
@@ -160,6 +160,50 @@ header {
 /* Header section styles ends here */
 
 /* Main section styles starts here */
+
+main {
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Popular tour section styles starts here */
+
+.popular-tour-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 100px 0px;
+}
+
+.popular-tour-title {
+    color: #131318;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.popular-tour-description,
+.popular-tour-list-items {
+    color: #131318b3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-bottom: 8px;
+}
+
+.popular-tour-list-box {
+    margin-left: 30px;
+}
+
+.popular-tour-btn {
+    font-size: 16px;
+    text-align: center;
+    padding: 16px 10px 16px 10px;
+}
+
+/* Popular tour section styles ends here */
 
 /* Main section styles ends here */
 
@@ -172,10 +216,13 @@ header {
 /* Media queries for mobile devices styles starts here */
 @media screen and (max-width: 600px) {
 
+    /* Header section responsive styles starts here */
+
     /* Navbar responsive styles starts here */
 
     .navbar {
         padding: 0px 20px;
+        margin: 50px 0px 20px 0px;
     }
 
     .nav-logo {
@@ -207,22 +254,65 @@ header {
 
     /* Header banner responsive styles starts here */
 
-    .header-banner-container{
-        padding: 32px 15px;
+    .header-banner-container {
+        padding: 30px 15px;
         background-size: cover;
         margin: 0px 20px;
     }
 
-    .header-banner-title{
+    .header-banner-title {
         font-size: 22px;
+        padding: 0px 0px 10px 0px;
     }
 
-    .header-banner-form{
+    .header-banner-description{
+        padding: 0px 0px 30px 0px;
+    }
+
+    .header-banner-form {
         flex-direction: column;
     }
 
     /* Header banner responsive styles ends here */
 
+    /* Header section responsive styles ends here */
+
+    /* Main section responsive styles starts here */
+
+    /* Popular tour responsive styles starts here */
+
+    .popular-tour-section{
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    .popular-tour-texts{
+        margin: 0px 20px;
+    }
+
+    .popular-tour-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .popular-tour-description{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .popular-tour-image{
+        margin: 0px 0px 24px 0px;
+    }
+
+    /* Popular tour responsive styles ends here */
+
+    
+
+    /* Main section responsive styles ends here */
+
+    /* Footer section responsive styles starts here */
+
+    /* Footer section responsive styles ends here */
 }
 
 /* Media queries for mobile devices styles ends here */
