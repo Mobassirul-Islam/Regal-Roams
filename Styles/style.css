@@ -19,7 +19,7 @@
 /* Header section styles starts here */
 
 header {
-    max-width: 990px;
+    max-width: 992px;
     width: 100%;
     margin: 0 auto;
 }
@@ -157,7 +157,7 @@ header {
 /* Main section styles starts here */
 
 main {
-    max-width: 990px;
+    max-width: 992px;
     width: 100%;
     margin: 0 auto;
 }
@@ -676,7 +676,7 @@ footer {
 }
 
 .footer-contents {
-    max-width: 950px;
+    max-width: 992px;
     width: 100%;
     margin: 0 auto;
 }
